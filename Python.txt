@@ -1,0 +1,163 @@
+1. Introdução ao Python
+
+    História e Filosofia
+        Origem e evolução do Python.
+        Filosofia Zen do Python (import this).
+        Comparação com outras linguagens (Java, C++, Ruby).
+    Instalação e Ambiente
+        Instalação em diferentes sistemas operacionais (Windows, macOS, Linux).
+        Uso de gerenciadores de pacotes como pip, conda.
+        Configuração de ambientes virtuais com venv e virtualenv.
+        Diferentes versões de Python (Python 2 vs. Python 3) e suas compatibilidades.
+
+2. Estrutura da Linguagem
+
+    Sintaxe Avançada
+        Uso de decorators para modificar o comportamento de funções.
+        Geradores com yield e compreensão de geradores.
+        Manipulação de exceções com try-except-else-finally em diferentes cenários.
+    Estruturas de Dados Avançadas
+        Listas encadeadas, pilhas, filas.
+        Implementação de árvores (árvores binárias, AVL, etc.).
+        Operações com estruturas de dados usando módulos como collections (deques, namedtuples, etc.).
+    Funções e Escopo
+        Funções de alta ordem e lambda functions em detalhes.
+        Closures e funções como objetos de primeira classe.
+        Decorators e a construção de decorators aninhados.
+        Scoping em Python: LEGB (Local, Enclosing, Global, Built-in).
+
+3. Programação Orientada a Objetos (POO)
+
+    Conceitos Avançados de POO
+        Herança múltipla e o MRO (Method Resolution Order).
+        Metaclasses e controle da criação de classes.
+        Polimorfismo avançado e operadores sobrecarregados.
+        Padrões de projeto (Singleton, Factory, Observer) implementados em Python.
+    Gerenciamento de Memória
+        Coleta de lixo e referências cíclicas.
+        Uso de __slots__ para otimização de espaço.
+        Desempenho e gerenciamento de recursos com context managers personalizados.
+
+4. Manipulação Avançada de Arquivos
+
+    Operações com Arquivos
+        Manipulação de arquivos binários.
+        Manipulação de grandes volumes de dados com buffers e streaming.
+        Leitura e escrita em arquivos CSV, JSON, XML, YAML usando bibliotecas nativas e externas.
+    Trabalhando com Dados Complexos
+        Manipulação de arquivos HDF5 com a biblioteca h5py.
+        Processamento paralelo de arquivos grandes com concurrent.futures.
+
+5. Processamento e Manipulação de Dados
+
+    NumPy e Pandas
+        Operações avançadas com arrays multidimensionais em NumPy.
+        Indexação avançada e broadcasting.
+        Manipulação de grandes datasets com Pandas, incluindo operações com multi-indexing, pivot tables, e group-by avançado.
+        Otimização de desempenho com Pandas (uso de cython para operações rápidas, numba para funções personalizadas).
+    SciPy
+        Aplicações de álgebra linear, otimização, e estatística com SciPy.
+        Integração de funções matemáticas complexas e transformadas de Fourier.
+    Data Visualization
+        Gráficos interativos com Plotly.
+        Visualização geoespacial com Folium e GeoPandas.
+        Dashboards dinâmicos com Dash.
+
+6. Programação Funcional
+
+    Conceitos Funcionais em Python
+        Imutabilidade e funções puras.
+        Uso avançado de funções de alta ordem (map(), filter(), reduce()).
+        Currying e aplicação parcial com functools.partial.
+        Monads e outros conceitos funcionais avançados.
+
+7. Desenvolvimento Web com Python
+
+    Frameworks Web
+        Flask: Estrutura de um projeto Flask escalável, Blueprints, e migrações de banco de dados com Flask-Migrate.
+        Django: Desenvolvimento completo com Django, CBVs (Class-Based Views), Middleware personalizado, e otimização de consultas ORM.
+        FastAPI: Construção de APIs RESTful assíncronas, validação de dados com Pydantic, e integração com OAuth2.
+    Front-End e Integrações
+        Integração de Python com frameworks front-end como React e Vue.js via APIs REST.
+        Utilização de WebSockets para aplicações em tempo real.
+
+8. Integração e Automação
+
+    Automação de Tarefas
+        Automação de tarefas do sistema operacional com os e shutil.
+        Automação de navegadores com Selenium e Scrapy para web scraping.
+        Processamento de documentos com PyPDF2, docx, e openpyxl.
+    Sistemas Distribuídos
+        Comunicação entre processos com multiprocessing e asyncio.
+        Uso de Celery para tarefas assíncronas em aplicações web.
+        Implementação de sistemas de filas com RabbitMQ e Kafka.
+
+9. Machine Learning e Inteligência Artificial
+
+    Introdução ao Machine Learning
+        Uso de bibliotecas como Scikit-learn para aprendizado supervisionado e não supervisionado.
+        Processamento de dados com Pipelines, Feature Engineering, e Model Selection.
+        Técnicas de validação cruzada e tuning de hiperparâmetros.
+    Deep Learning
+        Redes Neurais com TensorFlow e PyTorch.
+        Implementação de CNNs, RNNs, e GANs.
+        Treinamento em GPUs e otimização de modelos.
+
+10. Testes e Qualidade de Código
+
+    Testes Automatizados
+        Unittest: Estruturação e execução de testes unitários.
+        Pytest: Testes mais avançados com fixtures, parametrização, e plugins.
+        Mocking e patching para simulação de componentes externos.
+    Qualidade de Código
+        Linting e formatação de código com Pylint e Black.
+        Tipagem estática com MyPy e benefícios da anotação de tipos.
+        Integração contínua com Jenkins, Travis CI, ou GitHub Actions.
+
+11. Desempenho e Otimização
+
+    Profiling e Benchmarking
+        Uso de cProfile e line_profiler para análise de desempenho.
+        Benchmarking com timeit.
+        Técnicas de otimização de código, como memoização, uso eficiente de estruturas de dados, e evitar cópias desnecessárias.
+    Compiladores Just-in-Time
+        Uso de Numba e Cython para acelerar partes críticas do código.
+        Introdução ao uso de GPUs com CuPy para computação de alto desempenho.
+
+12. Segurança em Python
+
+    Segurança de Aplicações
+        Proteção contra injeção de SQL, XSS, e CSRF em aplicações web.
+        Gerenciamento seguro de senhas com bcrypt e argon2.
+        Criptografia de dados com cryptography.
+    Segurança no Desenvolvimento
+        Uso de bandit para análise estática de segurança.
+        Práticas recomendadas de segurança para desenvolvimento de bibliotecas e APIs.
+
+13. Distribuição e Empacotamento
+
+    Empacotamento de Aplicações
+        Criação de pacotes Python com setuptools e poetry.
+        Publicação de pacotes no PyPI.
+        Distribuição de aplicações com PyInstaller para gerar executáveis.
+
+14. Trabalhando com APIs
+
+    Consumo de APIs
+        Requisições HTTP com requests e httpx.
+        Integração com APIs RESTful e GraphQL.
+        Autenticação em APIs com OAuth2 e JWT.
+    Desenvolvimento de APIs
+        Criação de APIs RESTful com Flask e FastAPI.
+        Gerenciamento de rotas, middlewares, e autenticação.
+        Documentação de APIs com OpenAPI e Swagger.
+
+15. Big Data e Computação Paralela
+
+    Manipulação de Grandes Volumes de Dados
+        Uso de Dask para processamento paralelo de grandes datasets.
+        Integração com Hadoop e Spark para computação distribuída.
+        Análise de grandes volumes de dados com Vaex.
+    Processamento em Nuvem
+        Utilização de AWS Lambda, Google Cloud Functions para execução de código serverless.
+        Processamento distribuído com Apache Beam.
